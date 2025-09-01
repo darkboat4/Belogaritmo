@@ -1,2 +1,5 @@
-# App-de-estudos-sobre-Matematica
-Repositório dedicado a um aplicativo/site de estudos de matemática da Etec Professor Adhemar Batista Heméritas
+As dimensóes corretas para visualização do projeto são: 
+
+430 x 932,
+
+Dimensões padrões do Iphone 14 Pro Max
