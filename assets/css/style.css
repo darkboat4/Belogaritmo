@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'Itim';
-    src: url('../font/Itim-Regular.woff');
-}
+@import url(index.css);
 
-*{margin: 0; padding: 0;}
 
 body{
     background-image:url(../img/background.png);
@@ -57,17 +53,18 @@ main .box-text1 h1{
 }
 
 main .box-text1 p{
-    /* height: 70%; */
-    width: 50%;
-    
+    height: auto;
+    min-width: 80%;
+    margin-top: 2vh;
 
     font-size: 1.9em;
 }
 
 main .main-btn{
-     width: 100vw;
-    height: 25vh;
+    width: 100vw;
+    height: 10vh;
     /* background-color: blue; */
+    margin-top: 2vh;
 
     display: flex;
     justify-content: center;
@@ -79,8 +76,19 @@ main .main-btn button{
     line-height:1.9em;
     text-align: center;
     font-size: 2em;
-    height: 40%;
-    width: 60%;
+    height: 10vh;
+    width: 55vw;
     border-radius: 15px;
-    
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+button.start:hover{
+    transform: translateY(-3px);
+    transition: .2s linear;
+}
+
+button.start:active{
+    transform: translateY(5px);
+    transition: .2s linear;
 }
