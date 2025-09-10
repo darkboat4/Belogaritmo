@@ -4,3 +4,121 @@
 }
 
 *{margin: 0; padding: 0;}
+
+body{
+    background-image:url(../img/background.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: relative;
+}
+
+
+#main-header{
+    background-color: white;
+
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 0 0 20px 20px ;
+}
+
+header .text-header{
+    font-size: 2em;
+    color: black;
+}
+
+.botao-hamb{
+    background-color: rgba(255, 255, 255, 0);
+    /* border: none; */
+}
+
+
+#check{
+display: none;
+}
+
+.labelbtn{
+    width: 25px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:  column;
+    cursor: pointer;
+    transition: .2s linear;
+    /* background-color: green; */
+}
+
+.line-menu{
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    border-radius: 1px;
+    transition: .2s linear;
+}
+.nav-mobile{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+
+    width: 30vw;
+    height: 20vh;
+    transition: .2s linear;
+    background-color: forestgreen;
+}
+
+
+#check:checked ~ .nav-mobile{
+    display: flex;
+    transition: .2s linear;
+} 
+
+#check:checked ~ .labelbtn .line-menu:nth-child(1) {
+    transform: translateY(3px) rotate(45deg); /* Primeira linha vira parte do X */
+    transition: .2s linear;
+}
+
+#check:checked ~ .labelbtn .line-menu:nth-child(2){
+    display: none;
+    transition: .2s linear;
+    
+}
+#check:checked ~ .labelbtn .line-menu:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg); /* Terceira linha vira parte do X */
+    transition: .2s linear;
+}
+#check:checked ~ .labelbtn .line-menu{
+    transform: rotate(10px)
+}
+
+#check:checked ~ .labelbtn{
+    transition: .2s linear;
+}
+
+.nav-mobile a{
+    font-family: 'Itim';
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-mobile a p{text-align: center;}
+
+.checkbtn{
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}

@@ -1,27 +1,7 @@
 @import url(index.css);
 
 
-body{
-    background-image:url(../img/background.png);
-}
 
-#main-header{
-    background-color: white;
-
-    width: 100vw;
-    height: 10vh;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    border-radius: 0 0 20px 20px ;
-}
-
-header .text-header{
-    font-size: 2em;
-    color: black;
-}
 
 .text{
     font-family: 'Itim';

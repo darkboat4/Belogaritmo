@@ -1,12 +1,5 @@
-
-
-// function mudarPag(e){
-//     window.location.href(e)
-// }
-
-// const  btnComecar = document.getElementById("start")
-
-// btnComecar.addEventListener('click', mudarPag("materias.html"))
+    const menuBox = document.querySelector('menu');
+    
 
 document.addEventListener('click', (e) => {
     let el = e.target;
@@ -14,4 +7,12 @@ document.addEventListener('click', (e) => {
     if(el.classList.contains('start')) {
         window.location.href = "materias.html"
     }
+    
+    if(el.classList.contains('botao-hamb')){
+       document.classList.contains('menu').style = "display:flex"
+
+
+    }   
+
 })
+
