@@ -113,12 +113,27 @@ display: none;
     transition: .2s linear;
     background-color: rgb(255, 255, 255);
     z-index: 10;
+    
+    
+}
+
+@keyframes slide-in{
+    0%{
+        transform: translatey(-100%);
+        transition: 1s linear;
+        opacity: 0;
+    }
+    100%{transform: translatey(0%);
+        transition: 1s linear;
+        opacity: 1;
+    }
 }
 
 
 #check:checked ~ .nav-mobile{
     display: flex;
     transition: .2s linear;
+    animation: slide-in 1s linear;
 } 
 
 #check:checked ~ .labelbtn .line-menu:nth-child(1) {
