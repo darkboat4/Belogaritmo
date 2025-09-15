@@ -11,7 +11,44 @@ body{
   
     background-position: fixed;
     position: relative;
+    overflow-x: hidden;
 }
+
+button{
+cursor: pointer;
+transition: .2s linear;
+}
+
+button:hover{
+transform: translateY(-3px);
+transition: .2s linear;
+}
+
+button:active{
+transform: translateY(5px);
+transition: .2s linear;
+}
+
+
+    /* Para navegadores WebKit: Chrome, Safari, Edge */
+    ::-webkit-scrollbar {
+        width: 12px; /* Largura da barra vertical */
+      }
+  
+      ::-webkit-scrollbar-track {
+        background: #f0f0f0; /* Fundo da barra */
+      }
+  
+      ::-webkit-scrollbar-thumb {
+        background-color: #888; /* Cor da barra de scroll */
+        border-radius: 6px; /* Arredondamento */
+        border: 3px solid #f0f0f0; /* Espaçamento entre o thumb e a track */
+      }
+  
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Cor ao passar o mouse */
+      }
+
 
 
 #main-header{
@@ -117,10 +154,25 @@ display: none;
     text-align: center;
 }
 
-.nav-mobile a p{text-align: center;}
+.nav-mobile a p{
+    text-align: center;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .checkbtn{
     font-size: 1em;
     color: black;
     cursor: pointer;
+}
+
+.nav-mobile img{
+    min-width: 7vw;
+    max-width: 7vw;
+    /* background-color: red; */
+    height: auto;
+    object-fit: contain;
+    object-position: center;
 }
