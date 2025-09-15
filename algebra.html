@@ -8,6 +8,38 @@
     <title>Belogaritmo</title>
 </head>
 <body>
+    <header id="main-header">
+        <nav class="menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="labelbtn">
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+            </label>
+            <div class="nav-mobile">
+                <a href="index.html">
+                    <img src="" alt="">
+                    <p>Home</p>
+                </a>
+                <a href="">
+                    <img src="materias.html" alt="">
+                    <p>Matérias</p>
+                </a>
+                <a href="">
+                    <img src="# alt="">
+                    <p>Favoritos</p>
+                </a>
+            </div>
+    
+        </nav>
+        <!-- <button class="botao-hamb">
+            <img src="./assets/img/botao-hamburguer.png" alt="imagem do botao hamburguer">
+        </button> -->
+        <div class="text text-header">
+            Belogaritmo
+        </div>
+        <section class="botao-hamb"></section>
+    </header>
     <main class="fisrt-content">
         <div class="text box box-text1">
             <h1>Álgebra</h1>
@@ -21,8 +53,17 @@
         </div>
 
         <div class="text box box-text1">
+            <h1>Assista à uma aula!</h1>
+        </div>
+
+        <div class="main-info">
+            <video style="display: flex; align-items: center;" src="https://youtu.be/8NNA-8rimNs" width="370vw" height="250vh" controls></video>
+        </div> 
+
+        <div class="text box box-text1">
             <h1>Indicadores Temáticos</h1>
         </div>
+
         <div class="text box box-text1">
             <p>Você pode identificar que uma situação-problema precisa da álgebra quando ela apresenta:</p>
         </div>
@@ -76,6 +117,7 @@
                 <h1>Leia e compreenda: </h1>
                 <p> Primeiro, leia atentamente o problema para entender o que está sendo pedido e quais informações são fornecidas.</p>
             </div>
+            
         </div>
 
         <div class="main-info">
@@ -113,15 +155,16 @@
         <div class="text box box-text1">
             <p>Compreender os processos foi uma área fundamental! Nunca se esqueça de anotar em seu caderno os pontos que ressoarem mais importantes. E lembre-se:</p>
         </div>
-
+        
         <div class="text box box-text1">
-            <p>"O livro da natureza foi escrito exclusivamente com figuras e símbolos matemáticos"</p>
+            <p style="margin-top: 20vw;">"O livro da natureza foi escrito exclusivamente com figuras e símbolos matemáticos"</p>
             <p style="color: rgb(127, 178, 255);">(Galileu Galilei)</p>
         </div>
 
-        <div class="main-btn">
-            <button>Exercícios</button>
+        <div class="main-btn" style="margin-top: 15vw;">
+            <button onclick="rota('questao.html')">Exercícios</button>
         </div>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

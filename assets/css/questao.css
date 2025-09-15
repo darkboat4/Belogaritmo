@@ -1,0 +1,151 @@
+@import url(index.css);
+
+
+body{
+    background-image:url(../img/background.png);
+}
+
+main .main-info{
+    background-color: rgba(12, 57, 0, 0.7);
+    border-radius: 25px;
+    width: 90vw;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(6%, 0%);
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3vh;
+}
+
+main .main-info .text p{
+    color: rgb(255, 255, 255);
+    font-size: 2.4em;
+    padding: 5%;
+    
+}
+
+.alternativas{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: space-evenly;
+}
+
+.text{
+    font-family: 'Itim';
+    color: white;
+    line-height:2.6em;
+    text-align: center;
+}
+
+main .main-btn{
+    width: 100vw;
+    height: 8vh;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-btn button{
+    color:  black;
+    font-family: 'Itim';
+    line-height:1em;
+    text-align: center;
+    
+    height: 100%;
+    width: 90%;
+    border-radius: 15px;
+
+    
+    
+}
+
+main .main-btn button div{
+   
+    height: 100%;
+    width: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-btn button d:nth-child(1){
+ font-size: 2.3em;
+ margin-left: 20px;
+}
+
+main .main-btn button d:nth-child(2){
+ font-size: 1.9em;
+ 
+}
+
+
+.certa{
+    
+    
+}
+
+.correta{
+ display: none;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.correta .correta-text h1{
+    font-family: 'Itim';
+    color: #3A752A;
+    line-height:1.8em;
+    text-align: center;
+    background-color: #CDFE9C;
+    font-size: 2.8em;
+    width: 90vw;
+    border-radius: 45px;
+}
+
+.correta .correta-text p{
+    font-family: 'Itim';
+    color: rgb(0, 0, 0);
+    line-height:1.5em;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #CDFE9C;
+    width: 90vw;
+    border-radius: 7px;
+    margin-top: 5vh;
+}
+
+.errada{
+ display: none;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.errada .errada-text h1{
+    font-family: 'Itim';
+    color: #ff0000;
+    line-height:1.8em;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 2.8em;
+    width: 90vw;
+    border-radius: 45px;
+}
+
+.errada .errada-text p{
+    font-family: 'Itim';
+    color: rgb(0, 0, 0);
+    line-height:1.5em;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #ffffff;
+    width: 90vw;
+    border-radius: 7px;
+    margin-top: 5vh;
+}

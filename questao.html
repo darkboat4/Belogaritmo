@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/questao.css">
+    <link rel="import" href="./assets/font/Itim-Regular.woff">
+    
+    <title>Belogaritmo</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav class="menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="labelbtn">
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+            </label>
+            <div class="nav-mobile">
+                <a href="index.html">
+                    <img src="" alt="">
+                    <p>Home</p>
+                </a>
+                <a href="">
+                    <img src="materias.html" alt="">
+                    <p>Matérias</p>
+                </a>
+                <a href="">
+                    <img src="# alt="">
+                    <p>Favoritos</p>
+                </a>
+            </div>
+    
+        </nav>
+        <!-- <button class="botao-hamb">
+            <img src="./assets/img/botao-hamburguer.png" alt="imagem do botao hamburguer">
+        </button> -->
+        <div class="text text-header">
+            Belogaritmo
+        </div>
+        <section class="botao-hamb"></section>
+    </header>
+    <main class="fisrt-content">
+
+        <div class="main-info">
+            <div class="text">
+                <p> Se Pedro tem x anos, qual expressão determina o triplo da sua idade daqui a 6 anos? </p>
+            </div>
+        </div>
+
+        <section class="alternativas">
+
+            <div class="main-btn">
+                <button onclick="errou()">
+                    <div>
+                        <d> a) </d>  <d>3x+6 </d> 
+                    </div>
+                </button>
+            </div>
+
+            <div class="main-btn">
+                <button class="certa" onclick="acerto()">
+                    <div>
+                        <d>b) </d> <d>3(x+6) </d>
+                    </div>
+                </button>
+            </div>
+
+            <div class="main-btn">
+                <button onclick="errou()"> 
+                    <div>
+                        <d>c)</d> <d>3x+6x</d>
+                    </div>
+                </button>
+            </div>
+
+            <div class="main-btn">
+                <button onclick="errou()">
+                    <div>
+                      <d>d)</d>  <d>3x.6</d>
+                    </div>
+                </button>
+            </div>
+            
+        </section>
+
+        <section class="correta">
+            <div class="correta-text">
+                <h1>Correta!</h1>
+            </div>
+
+            <div class="correta-text">
+                <p>
+                    Alternativa correta: b- 3(x + 6). Se a idade de Pedro é x, então daqui a 6 anos Pedro terá a idade x + 6. Para determinar a expressão algébrica que calcula o triplo da sua idade daqui a 6 anos devemos multiplicar por 3 a idade x + 6, ou seja, 3(x + 6). Sendo assim, a alternativa b-  3(x + 6) está correta.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="errada">
+             <div class="errada-text">
+                <h1>Errada!</h1>
+            </div>
+
+            <div class="errada-text">
+                <p>
+                    Alternativa correta: b- 3(x + 6). Se a idade de Pedro é x, então daqui a 6 anos Pedro terá a idade x + 6. Para determinar a expressão algébrica que calcula o triplo da sua idade daqui a 6 anos devemos multiplicar por 3 a idade x + 6, ou seja, 3(x + 6). Sendo assim, a alternativa b-  3(x + 6) está correta.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="assets/js/questoes.js"></script>
+</body>
+</html>

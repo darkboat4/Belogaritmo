@@ -6,7 +6,7 @@ body{
 }
 
 #main-header{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
     width: 100vw;
     height: 10vh;
@@ -21,11 +21,12 @@ body{
 header .text-header{
     font-size: 2em;
     color: black;
+    
 }
 
 .text{
     font-family: 'Itim';
-    color: white;
+    color: rgb(255, 255, 255);
     line-height:1.9em;
     text-align: center;
 }
@@ -44,10 +45,18 @@ header .text-header{
 .box-separation{
     width: 100vw;
     height: 10vh;
+    
+}
+
+main .text h1{
+    font-family: 'Itim';
+    color: rgb(255, 255, 255);
+    line-height:1.9em;
+    text-align: center;
 }
 
 main .box-text1 h1{
-
+    
     font-size: 4em;
     height: 30%;
     line-height: 1em;
@@ -85,7 +94,7 @@ main .main-btn button{
 }
 
 main .main-info{
-    background-color: white;
+    background-color: rgba(12, 57, 0, 0.7);
     border-radius: 25px;
     width: 75vw;
     
@@ -102,17 +111,22 @@ main .main-info{
 }
 
 main .main-info .text p{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.9em;
     padding: 5%;
+    
 }
 
 main .main-info .text h1{
-    color: red;
+    color: #F2E711;
     font-size: 1.9em;
     padding: 5%;
+    
 }
+
+
 
 main .main-info img{
     padding-top: 10%;
+    
 }

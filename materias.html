@@ -5,13 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/materias.css">
     <link rel="import" href="./assets/font/Itim-Regular.woff">
+    <
     <title>Belogaritmo</title>
 </head>
 <body>
     <header id="main-header">
-        <section class="botao-hamb">
+        <nav class="menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="labelbtn">
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu"></div>
+            </label>
+            <div class="nav-mobile">
+                <a href="index.html">
+                    <img src="" alt="">
+                    <p>Home</p>
+                </a>
+                <a href="materias.html">
+                    <img src="" alt="">
+                    <p>Matérias</p>
+                </a>
+                <a href="#">
+                    <img src="" alt="">
+                    <p>Favoritos</p>
+                </a>
+            </div>
+    
+        </nav>
+        <!-- <button class="botao-hamb">
             <img src="./assets/img/botao-hamburguer.png" alt="imagem do botao hamburguer">
-        </section>
+        </button> -->
         <div class="text text-header">
             Belogaritmo
         </div>
@@ -30,7 +54,7 @@
             <button>Análise Gráfica</button>
         </div>
         <div class="main-btn">
-            <button id="bntAlgebra">Álgebra</button>
+            <button id="bntAlgebra" onclick="rota('algebra.html')">Álgebra</button>
         </div>
         <div class="main-btn">
             <button>Análise Combinatória</button>
@@ -39,5 +63,6 @@
             <button>Geometria Plana</button>
         </div>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
