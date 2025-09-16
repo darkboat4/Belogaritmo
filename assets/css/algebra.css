@@ -29,6 +29,7 @@ header .text-header{
     color: rgb(255, 255, 255);
     line-height:1.9em;
     text-align: center;
+    width: 75vw;
 }
 
 .box{
